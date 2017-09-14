@@ -5,9 +5,18 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { HomeComponent } from './components/home/home.component';
+import { SearchComponent } from './components/search/search.component';
+import { SharedComponent } from './components/shared/shared.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    SearchComponent,
+    SharedComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
