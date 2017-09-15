@@ -12,6 +12,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 // Servicios
 import { SpotifyService } from './services/spotify.service';
+import { SinfotoPipe } from './pipes/sinfoto.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SpotifyService } from './services/spotify.service';
     HomeComponent,
     SearchComponent,
     SharedComponent,
-    NavbarComponent
+    NavbarComponent,
+    SinfotoPipe
   ],
   imports: [
     BrowserModule,
