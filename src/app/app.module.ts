@@ -13,6 +13,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 // Servicios
 import { SpotifyService } from './services/spotify.service';
 import { SinfotoPipe } from './pipes/sinfoto.pipe';
+import { ArtistaComponent } from './components/artista/artista.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SinfotoPipe } from './pipes/sinfoto.pipe';
     SearchComponent,
     SharedComponent,
     NavbarComponent,
-    SinfotoPipe
+    SinfotoPipe,
+    ArtistaComponent
   ],
   imports: [
     BrowserModule,
