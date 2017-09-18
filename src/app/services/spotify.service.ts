@@ -13,7 +13,7 @@ export class SpotifyService {
 
   constructor( private http: Http ) {
     this.headers.append( 'authorization',
-    'Bearer BQAxJpMQL5tl1KSBvxZOyyYW9Th0UeV4DvX4GWgj_XB52iF581aru7kgC9EGd2RUWbY2aWQ1G3rn7uasFW5hjg');
+    'Bearer BQAM6Aju8DW-SVUg9jC6mHfYdgkHeceHmU4CdfD77njgJw2e3M1jiH-NVffI3m_9tZCLlqrJ5Bhx03V1m8tY0Q');
   }
 
   getArtistas( termino: String ) {
